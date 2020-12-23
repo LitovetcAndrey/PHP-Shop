@@ -1,0 +1,40 @@
+{
+  "product": {
+
+    "111": {
+      "name": "Яблоки",
+      "cost": 42.2,
+      "description": "сочные",
+      "oder":1,
+      "img": "apple.png"
+    },
+    "112": {
+      "name": "Бананы",
+      "cost": 25.0,
+      "description": "",
+      "oder":1,
+      "img":"banana.png"
+    },
+    "113": {
+      "name": "Вишни",
+      "cost": 20.0,
+      "description": "Спелые",
+      "oder":1,
+      "img":"cherry.png"
+    },
+    "114": {
+      "name": "Арбузы",
+      "cost": 8.5,
+      "description": "вкусные",
+      "oder":1,
+      "img":"water_Melon.png"
+    },
+    "115": {
+      "name": "Виноград",
+      "cost": 60.0,
+      "description": "",
+      "oder":1,
+      "img":"grape.png"
+    }
+  }
+}

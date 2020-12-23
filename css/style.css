@@ -1,0 +1,54 @@
+.cart {
+    height: 250px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 30px;
+    text-align: center;
+    float: left;
+    padding: 20px;
+}
+
+.cart .name {
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.cart .img-small {
+    width: inherit;
+}
+
+.cart .cost {
+    font-size: 1.3rem;
+}
+
+.cart .add-to-cart {
+    background: darkslategray;
+    border-radius: 5rem;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/*наведение*/
+.cart .add-to-cart:hover{
+    background-color: grey;
+}
+
+/*нажатие*/
+.cart .add-to-cart:active{
+    background-color: red;
+}
+
+.goods-out{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.goods-out::after{
+    content: "";
+    display: block;
+    clear: both;
+}
